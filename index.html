@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="left">
+            <div class="menu gray_hover">
+                <svg fill="#000000" width="25px" height="25px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+            </div>
+            <div class="logo">
+                <img src="	https://en.wikipedia.org/static/images/icons/wikipedia.png" alt="" width="50px" height="50px">
+            </div>
+            <div class="name">
+                <h2>WIKIPEDIA</h2>
+                <p>The Free encyclopedia</p>
+            </div>
+            <div class="search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="%23000"><path d="M12.2 13.6a7 7 0 111.4-1.4l5.4 5.4-1.4 1.4zM3 8a5 5 0 1010 0A5 5 0 003 8"/>
+                </svg>
+                <input type="text" placeholder="Seacrh Wikipedia">
+                <div class="searchbtn gray_hover"><p>Search</p></div>
+            </div>
+        </div>
+        <div class="right">
+            <a href="#">Donate</a>
+            <a href="#">Create account</a>
+            <a href="#">Log in</a>
+            <div class="threedots gray_hover">
+                <svg fill="#000000" height="20px" width="30px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 32.055 32.055" xml:space="preserve">
+<g>
+	<path d="M3.968,12.061C1.775,12.061,0,13.835,0,16.027c0,2.192,1.773,3.967,3.968,3.967c2.189,0,3.966-1.772,3.966-3.967
+		C7.934,13.835,6.157,12.061,3.968,12.061z M16.233,12.061c-2.188,0-3.968,1.773-3.968,3.965c0,2.192,1.778,3.967,3.968,3.967
+		s3.97-1.772,3.97-3.967C20.201,13.835,18.423,12.061,16.233,12.061z M28.09,12.061c-2.192,0-3.969,1.774-3.969,3.967
+		c0,2.19,1.774,3.965,3.969,3.965c2.188,0,3.965-1.772,3.965-3.965S30.278,12.061,28.09,12.061z"/>
+</g>
+</svg>
+            </div>
+        </div>
+    </div>
+    <div class="parent">
+        <div class="sidebar">
+            <h4>Contents</h4>
+            <a href="#top">(Top)</a>
+            <a href="#history">History</a>
+            <a href="#Language">Language</a>
+            <a href="#Standard_Library">Standard Library</a>
+        </div>
+        <div class="main">
+            <div class="main_top">
+                <h1>C++</h1>
+                <p style="color: rgb(78, 78, 199); font-size: 18px;">111 Languages</p>
+            </div>
+            <div class="main_menu">
+                <div class="main_menu_left">
+                    <p>Article</p>
+                    <p style="color: blue;">Talk</p>
+                </div>
+                <div class="main_menu_right">
+                    <p>Read</p>
+                    <p style="color: blue;">Edit</p>
+                    <p style="color: blue;">View History</p>
+                    <p>Tools</p>
+                </div>
+            </div>
+            <div class="main_content">
+                <div class="leftcontent">
+                <div id="top" class="para">
+                C++[b] is a high-level, general-purpose programming language created by Danish computer scientist Bjarne Stroustrup. First released in 1985 as an extension of the C programming language, adding object-oriented (OOP) features, it has since expanded significantly over time adding more OOP and other features; as of 1997/C++98 standardization, C++ has added functional features, in addition to facilities for low-level memory manipulation for systems like microcomputers or to make operating systems like Linux or Windows, and even later came features like generic programming (through the use of templates). C++ is usually implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Embarcadero, Oracle, and IBM.[14]
+
+C++ was designed with systems programming and embedded, resource-constrained software and large systems in mind, with performance, efficiency, and flexibility of use as its design highlights.[15] C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications,[15] including desktop applications, video games, servers (e.g., e-commerce, web search, or databases), and performance-critical applications (e.g., telephone switches or space probes).[16]
+
+C++ is standardized by the International Organization for Standardization (ISO), with the latest standard version ratified and published by ISO in October 2024 as ISO/IEC 14882:2024 (informally known as C++23).[17] The C++ programming language was initially standardized in 1998 as ISO/IEC 14882:1998, which was then amended by the C++03, C++11, C++14, C++17, and C++20 standards. The current C++23 standard supersedes these with new features and an enlarged standard library. Before the initial standardization in 1998, C++ was developed by Stroustrup at Bell Labs since 1979 as an extension of the C language; he wanted an efficient and flexible language similar to C that also provided high-level features for program organization.[18] Since 2012, C++ has been on a three-year release schedule[19] with C++26 as the next planned standard.[20]
+
+</div>
+<div id="history" class="para">
+    <h2>History</h2><hr>
+    <p>In 1979, Bjarne Stroustrup, a Danish computer scientist, began work on "C with Classes", the predecessor to C++.[21] The motivation for creating a new language originated from Stroustrup's experience in programming for his PhD thesis. Stroustrup found that Simula had features that were very helpful for large software development, but the language was too slow for practical use, while BCPL was fast but too low-level to be suitable for large software development. When Stroustrup started working in AT&T Bell Labs, he had the problem of analyzing the UNIX kernel with respect to distributed computing. Remembering his PhD experience, Stroustrup set out to enhance the C language with Simula-like features.[22] C was chosen because it was general-purpose, fast, portable, and widely used. In addition to C and Simula's influences, other languages influenced this new language, including ALGOL 68, Ada, CLU, and ML.[citation needed]
+
+Initially, Stroustrup's "C with Classes" added features to the C compiler, Cpre, including classes, derived classes, strong typing, inlining, and default arguments.[23]
+In 1982, Stroustrup started to develop a successor to C with Classes, which he named "C++" (++ being the increment operator in C) after going through several other names. New features were added, including virtual functions, function and operator overloading, references, constants, type-safe free-store memory allocation (new/delete), improved type checking, and BCPL-style single-line comments with two forward slashes (//). Furthermore, Stroustrup developed a new, standalone compiler for C++, Cfront.
+
+In 1984, Stroustrup implemented the first stream input/output library. The idea of providing an output operator rather than a named output function was suggested by Doug McIlroy[2] (who had previously suggested Unix pipes).
+
+In 1985, the first edition of The C++ Programming Language was released, which became the definitive reference for the language, as there was not yet an official standard.[24] The first commercial implementation of C++ was released in October of the same year.[21]
+In 1989, C++ 2.0 was released, followed by the updated second edition of The C++ Programming Language in 1991.[25] New features in 2.0 included multiple inheritance, abstract classes, static member functions, const member functions, and protected members. In 1990, The Annotated C++ Reference Manual was published. This work became the basis for the future standard. Later feature additions included templates, exceptions, namespaces, new casts, and a Boolean type.
+
+In 1998, C++98 was released, standardizing the language, and a minor update (C++03) was released in 2003.
+
+After C++98, C++ evolved relatively slowly until, in 2011, the C++11 standard was released, adding numerous new features, enlarging the standard library further, and providing more facilities to C++ programmers. After a minor C++14 update released in December 2014, various new additions were introduced in C++17.[26] After becoming finalized in February 2020,[27] a draft of the C++20 standard was approved on 4 September 2020, and officially published on 15 December 2020.[28][29]
+
+On January 3, 2018, Stroustrup was announced as the 2018 winner of the Charles Stark Draper Prize for Engineering, "for conceptualizing and developing the C++ programming language".[30]
+
+In December 2022, C++ ranked third on the TIOBE index, surpassing Java for the first time in the history of the index. As of November 2024, the language ranks second after Python, with Java being in third.[31]
+
+In March 2025, Stroustrup issued a call for the language community to defend it. Since the language allows manual memory management, bugs that represent security risks such as buffer overflow may be introduced in programs when inadvertently misused by the programmer.[32]</p>
+</div>
+<div id="Language" class="para">
+    <h2>Language</h2><hr>
+    <p>The C++ language has two main components: a direct mapping of hardware features provided primarily by the C subset, and zero-overhead abstractions based on those mappings. Stroustrup describes C++ as "a light-weight abstraction programming language [designed] for building and using efficient and elegant abstractions";[15] and "offering both hardware access and abstraction is the basis of C++. Doing it efficiently is what distinguishes it from other languages."[65]
+
+C++ inherits most of C's syntax. A hello world program that conforms to the C standard is also a valid C++ hello world program. The following is Bjarne Stroustrup's version of the Hello world program that uses the C++ Standard Library stream facility to write a message to standard output:[66][67][c]</p>
+</div>
+<div id="Standard_Library" class="para">
+    <h2>Standard Library</h2><hr>
+    <p>The C++ standard consists of two parts: the core language and the standard library. C++ programmers expect the latter on every major implementation of C++; it includes aggregate types (vectors, lists, maps, sets, queues, stacks, arrays, tuples), algorithms (find, for_each, binary_search, random_shuffle, etc.), input/output facilities (iostream, for reading from and writing to the console and files), filesystem library, localisation support, smart pointers for automatic memory management, regular expression support, multi-threading library, atomics support (allowing a variable to be read or written to by at most one thread at a time without any external synchronisation), time utilities (measurement, getting current time, etc.), a system for converting error reporting that does not use C++ exceptions into C++ exceptions, a random number generator, and a slightly modified version of the C standard library (to make it comply with the C++ type system).
+
+The design of the C++ standard library, much like the C standard library, is minimalistic, and contains only core features for programming, lacking most of the more specialised features offered by the Java standard library or C# standard library. For more features, some third-party libraries such as Boost libraries and POCO C++ Libraries, which offer additional features, may be used to supplement the standard library.
+
+A large part of the C++ library is based on the Standard Template Library (STL). Useful tools provided by the STL include containers as the collections of objects (such as vectors and lists), iterators that provide array-like access to containers, and algorithms that perform operations such as searching and sorting.
+
+Furthermore, (multi)maps (associative arrays) and (multi)sets are provided, all of which export compatible interfaces. Therefore, using templates it is possible to write generic algorithms that work with any container or on any sequence defined by iterators.
+
+As in C, the features of the library may be accessed by using the #include directive to include a standard header. The C++ Standard Library provides 105 standard headers, of which 27 are deprecated. With the introduction of modules in C++20, these headers may be accessed with import, and in C++23, the entire standard library can now be directly imported as module itself, with import std;. Currently, the C++ standard library provides two modules, std and std.compat (a compatibility module for std which exports C standard library facilities into the global namespace).
+
+The standard incorporates the STL that was originally designed by Alexander Stepanov, who experimented with generic algorithms and containers for many years. When he started with C++, he finally found a language where it was possible to create generic algorithms (e.g., STL sort) that perform even better than, for example, the C standard library qsort, thanks to C++ features like using inlining and compile-time binding instead of function pointers. The standard does not refer to it as "STL", as it is merely a part of the standard library, but the term is still widely used to distinguish it from the rest of the standard library (input/output streams, internationalization, diagnostics, the C library subset, etc.).[68]
+
+Most C++ compilers, and all major ones, provide a standards-conforming implementation of the C++ standard library.</p>
+</div>
+</div>
+    <div class="rightcontent">
+        <div class="yoo">
+              <div class="rchead"><h4>C++</h4></div> 
+              <div class="cppLogo"></div>
+              <p>Logo endorsed by the C++ standards committee</p>
+              <div class="info">
+                <p class="p1">Paradigms</p>
+                <p class="p2">	Multi-paradigm: procedural, imperative, functional, object-oriented, generic, modular</p>
+              </div>
+              <div class="info">
+                <p class="p1">Family</p>
+                <p class="p2">C</p>
+              </div>
+              <div class="info">
+                <p class="p1">Designed by</p>
+                <p class="p2">	Bjarne Stroustrup</p>
+              </div>
+              <div class="info">
+                <p class="p1">Developer</p>
+                <p class="p2">ISO/IEC JTC 1 (Joint Technical Committee 1) / SC 22 (Subcommittee 22) / WG 21 (Working Group 21)</p>
+              </div>
+              <div class="info">
+                <p class="p1">First appeared</p>
+                <p class="p2">	1985; 40 years ago</p>
+              </div>
+              <div class="info">
+                <p class="p1">Stable release</p>
+                <p class="p2">C++23 (ISO/IEC 14882:2024) / 19 October 2024; 11 months ago</p>
+              </div>
+              <div class="info">
+                <p class="p1">Preview release</p>
+                <p class="p2">C++26 / 5 August 2025; 60 days ago</p>
+              </div>
+              <div class="info">
+                <p class="p1">Typing discipline</p>
+                <p class="p2">Static, strong, nominative, partially inferred</p>
+              </div>
+              <div class="info">
+                <p class="p1">OS</p>
+                <p class="p2">	Cross-platform</p>
+              </div></div>
+            <div class="takle_ka_photo">
+                <div class="tkp"></div>
+                <div>
+                    Bjarne Stroustrup, the creator of C++, in his AT&T New Jersey office, c. 2000
+
+                </div>
+            </div>
+            </div>
+        </div>
+            
+        </div>
+
+        
+        </div>
+    </div>
+</body>
+</html>
+
